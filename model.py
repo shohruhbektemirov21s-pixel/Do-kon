@@ -32,6 +32,15 @@ class foods:
     def type(self, food_type):
         self.food_type = food_type
         return(f"type: {self.food_type}")
-    
 
-    print("Hello from foods class")
+    def get_info(self):
+        return(f"Name: {self.name}, Calories: {self.calories}, Price: {self.price}")
+
+    def set_price(self, new_price):
+        self.price = new_price
+        return(f"New Price: {self.price}")
+
+foods1 = foods(name="Pizza", calories=250, price=15)
+print(foods1.type("Fast Food"))
+print(foods1.get_info())
+print(foods1.set_price(20))
