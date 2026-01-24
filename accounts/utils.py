@@ -1,3 +1,4 @@
+from .utils import Mahsulot
 class Mahsulot:
     def __init__(self, nomi, narxi, uzunligi):
         self.nomi = nomi
@@ -13,7 +14,7 @@ class Mahsulot:
     def set_price(self, yangi_narxi):
         self.narxi = yangi_narxi
         return f"Yangi narxi: {self.narxi}"
-from .utils import Mahsulot
+        
 class mahsulotlar:
     def __init__(self,nomi,narxi,uzunligi):
         self.nomi=nomi

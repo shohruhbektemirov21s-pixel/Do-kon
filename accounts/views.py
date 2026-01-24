@@ -11,4 +11,4 @@ def product_list(request):
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Salom! Bosh sahifa ishlayapti 🚀")
+    return HttpResponse("Saytimizga xush kelibsiz!")
