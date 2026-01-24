@@ -1,0 +1,6 @@
+from djago.urls import path
+from .views import homePageView
+
+urlpatterns =[
+    path('', homePageView, name='home')
+]
